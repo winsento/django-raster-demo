@@ -26,7 +26,7 @@ SECRET_KEY = 'atm@0&376p_7i)k6weotk@4ou5sjr-*^b*_2*63+_m(*b9__t('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
