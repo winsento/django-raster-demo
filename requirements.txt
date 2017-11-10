@@ -1,0 +1,5 @@
+Django==1.11.7
+psycopg2==2.7.3.2
+GDAL==2.2.2
+django-raster==0.5
+dj-database-url==0.4.2

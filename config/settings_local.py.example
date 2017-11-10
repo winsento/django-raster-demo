@@ -1,0 +1,10 @@
+import sys, os
+
+DEBUG = True
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.contrib.gis.db.backends.postgis',
+        'NAME': 'raster_django_demo',
+        'USER': 'postgres',
+    }
+}
