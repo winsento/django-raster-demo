@@ -27,7 +27,7 @@ RUN cp ./docker/supervisord.conf /etc/supervisor/conf.d/supervisord.conf && \
 
 RUN /env/bin/python /app/manage.py collectstatic --noinput
 
-VOLUME /storage
+VOLUME /env/www/media
 
 EXPOSE 80
 
