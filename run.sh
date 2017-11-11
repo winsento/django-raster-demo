@@ -20,4 +20,5 @@ docker run \
        --restart=always \
        --link $DBCN \
        -e DATABASE_URL=$DATABASE_CON/raster_django_demo \
+       -e FLOWER_BASIC_AUTH=login:pass \
        $IMAGE

@@ -124,6 +124,13 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(ENV_DIR, 'www', 'static')
 
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(ENV_DIR, 'www', 'media')
+
+RASTER_USE_CELERY = False
+
+CELERY_TASK_ALWAYS_EAGER = True
+CELERY_TASK_EAGER_PROPAGATES = True
 
 try:
     from config.settings_local import *
