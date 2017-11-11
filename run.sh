@@ -19,6 +19,7 @@ docker run \
        -p $PORT:80 \
        --restart=always \
        --link $DBCN \
+       -v ./django-raster-demo:/env/www/media \
        -e DATABASE_URL=$DATABASE_CON/raster_django_demo \
        -e FLOWER_BASIC_AUTH=login:pass \
        $IMAGE
