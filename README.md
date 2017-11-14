@@ -1,3 +1,7 @@
+# Description
+
+Demo project for geodesign/django-raster https://github.com/geodesign/django-raster
+
 # Raster files publication
 
 **Install Postgresql**
